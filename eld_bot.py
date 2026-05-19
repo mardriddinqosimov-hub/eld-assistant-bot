@@ -38,7 +38,7 @@ TOKEN = "8793507175:AAGaNdVk2xmPutY5upkdwj4u_v69dHfc92o"
 # Put your Telegram numeric ID here
 # =========================================================
 
-ADMIN_ID = 123456789
+ADMIN_ID = 1125665706
 
 # =========================================================
 # TEMPLATE DATABASE
