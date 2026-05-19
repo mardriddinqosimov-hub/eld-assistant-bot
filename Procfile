@@ -1,1 +1,1 @@
-worker: python eld_bot.py
+web: python eld_bot.py
