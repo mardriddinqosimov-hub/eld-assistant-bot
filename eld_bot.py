@@ -31,7 +31,7 @@ from telegram.ext import (
 # BOT TOKEN
 # =========================================================
 
-TOKEN = "8703570267:AAHF1hL1vZzlZ8r308K6lKShrqQ2-H9zw-g"
+TOKEN = "8793507175:AAGaNdVk2xmPutY5upkdwj4u_v69dHfc92o"
 
 # =========================================================
 # ADMIN ID
