@@ -221,7 +221,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     reply_markup = InlineKeyboardMarkup(keyboard)
 
     await update.message.reply_text(
-        "🚛 ELD Assistant Bot\n\nChoose a template:",
+        "📋 Template Base Bot\n\nChoose a template:",
         reply_markup=reply_markup
     )
 
@@ -259,7 +259,7 @@ async def button_click(update: Update, context: ContextTypes.DEFAULT_TYPE):
         ]
 
         await query.edit_message_text(
-            "🚛 ELD Assistant Bot\n\nChoose a template:",
+            "📋 Template Base Bot\n\nChoose a template:",
             reply_markup=InlineKeyboardMarkup(keyboard)
         )
         return
@@ -439,7 +439,7 @@ async def deletetemplate(update: Update, context: ContextTypes.DEFAULT_TYPE):
 async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     help_text = """
-🚛 ELD ASSISTANT BOT HELP
+📋 TEMPLATE BASE BOT HELP
 
 📚 Main Commands:
 /start - Open menu
@@ -527,7 +527,7 @@ def main():
     server = HTTPServer(("0.0.0.0", port), HealthHandler)
     threading.Thread(target=server.serve_forever, daemon=True).start()
 
-    print(f"ELD Assistant Bot Running... (health server on port {port})")
+    print(f"Template Base Bot Running... (health server on port {port})")
 
     app.run_polling()
 
